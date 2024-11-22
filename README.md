@@ -7,11 +7,11 @@ To write a program to predict the type of species of the Iris flower using the S
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. Import Necessary Libraries and Load Data.
-2. Split Dataset into Training and Testing Sets
-3. Train the Model Using Stochastic Gradient Descent (SGD).
-4. Make Predictions and Evaluate Accuracy
-5. Generate Confusion Matrix
+1.Import the necessary libraries: We'll need libraries like scikit-learn for the machine learning model and dataset, and numpy for numerical operations.
+2.Load the Iris dataset: We can easily load the Iris dataset using sklearn.datasets.load_iris().
+3.Split the dataset: We'll divide the data into training and testing sets using train_test_split.
+4.Train the model: Use SGDClassifier to train the model on the training data.
+5.Evaluate the model: Test the model on the testing data and check its accuracy.
 
 ## Program:
 ```
